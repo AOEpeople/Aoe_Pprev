@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aoe_PayPalRevenueShare>
+            <version>0.1.0</version>
+        </Aoe_PayPalRevenueShare>
+    </modules>
+    <global>
+
+        <helpers>
+            <aoe_paypalrevenueshare>
+                <class>Aoe_PayPalRevenueShare_Helper</class>
+            </aoe_paypalrevenueshare>
+        </helpers>
+
+        <models>
+            <aoe_paypalrevenueshare>
+                <class>Aoe_PayPalRevenueShare_Model</class>
+            </aoe_paypalrevenueshare>
+        </models>
+
+    </global>
+    <default>
+        <dev>
+            <aoe_paypalrevenueshare>
+                <bn_code>Varien_Cart_%s%s</bn_code>
+            </aoe_paypalrevenueshare>
+        </dev>
+    </default>
+</config>
