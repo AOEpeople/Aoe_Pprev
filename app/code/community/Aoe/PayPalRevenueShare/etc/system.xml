@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <config>
     <sections>
-        <dev translate="label" module="apilog">
+        <dev>
             <groups>
-                <aoe_paypalrevenueshare translate="label">
+                <aoe_paypalrevenueshare translate="label" module="aoe_paypalrevenueshare">
                     <label>AOE PayPalRevenueShare</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
