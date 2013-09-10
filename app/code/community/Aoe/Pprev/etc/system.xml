@@ -4,7 +4,7 @@
         <dev>
             <groups>
                 <aoe_pprev translate="label" module="aoe_pprev">
-                    <label>AOE PayPalRevenueShare</label>
+                    <label>AOE Pprev</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
@@ -13,7 +13,7 @@
                     <fields>
                         <bn_code translate="label">
                             <label>BN Code</label>
-                            <comment><![CDATA[Your build notation code. %1$s inserts Paypal checkout method, %2$s inserts country code.]]></comment>
+                            <comment><![CDATA[Your build notation code. %1$s inserts checkout method, %2$s inserts country code.]]></comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>30</sort_order>
                             <show_in_default>1</show_in_default>
