@@ -6,7 +6,7 @@
  * @author David Robinson
  * @since 2013-06-03
  */
-class Aoe_PayPalRevenueShare_Model_Paypal_Config extends Mage_Paypal_Model_Config
+class Aoe_Pprev_Model_Paypal_Config extends Mage_Paypal_Model_Config
 {
 
     /**
@@ -19,7 +19,7 @@ class Aoe_PayPalRevenueShare_Model_Paypal_Config extends Mage_Paypal_Model_Confi
     {
         $product = 'WPP';
 
-        if (!($bnCode = Mage::getStoreConfig('dev/aoe_paypalrevenueshare/bn_code'))) {
+        if (!($bnCode = Mage::getStoreConfig('dev/aoe_pprev/bn_code'))) {
             $bnCode = 'Varien_Cart_%s%s';
         }
 

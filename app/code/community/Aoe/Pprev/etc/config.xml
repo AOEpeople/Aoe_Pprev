@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aoe_Pprev>
+            <version>0.1.0</version>
+        </Aoe_Pprev>
+    </modules>
+
+    <global>
+        <helpers>
+            <aoe_pprev>
+                <class>Aoe_Pprev_Helper</class>
+            </aoe_pprev>
+        </helpers>
+        <models>
+            <aoe_pprev>
+                <class>Aoe_Pprev_Model</class>
+            </aoe_pprev>
+            <paypal>
+                <rewrite>
+                    <config>Aoe_Pprev_Model_Paypal_Config</config>
+                </rewrite>
+            </paypal>
+        </models>
+    </global>
+
+    <default>
+        <dev>
+            <aoe_pprev>
+                <bn_code>Varien_Cart_%1$s_%2$s</bn_code>
+            </aoe_pprev>
+        </dev>
+    </default>
+</config>

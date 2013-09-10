@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Aoe_PayPalRevenueShare>
+        <Aoe_Pprev>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
                 <Mage_Paypal />
             </depends>
-        </Aoe_PayPalRevenueShare>
+        </Aoe_Pprev>
     </modules>
 </config>

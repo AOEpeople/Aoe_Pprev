@@ -3,7 +3,7 @@
     <sections>
         <dev>
             <groups>
-                <aoe_paypalrevenueshare translate="label" module="aoe_paypalrevenueshare">
+                <aoe_pprev translate="label" module="aoe_pprev">
                     <label>AOE PayPalRevenueShare</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
@@ -21,7 +21,7 @@
                             <show_in_store>1</show_in_store>
                         </bn_code>
                     </fields>
-                </aoe_paypalrevenueshare>
+                </aoe_pprev>
             </groups>
         </dev>
     </sections>

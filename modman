@@ -1,2 +1,2 @@
-app/code/community/Aoe/PayPalRevenueShare     app/code/community/Aoe/PayPalRevenueShare
-app/etc/modules/*    app/etc/modules/
+app/code/community/Aoe/Pprev     app/code/community/Aoe/Pprev
+app/etc/modules/*                app/etc/modules/
