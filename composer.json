@@ -1,0 +1,14 @@
+{
+    "name": "AOEPeople/Aoe_Pprev",
+    "description": "Paypal BN Code",
+    "authors": [
+        {
+            "name": "Manish Jain",
+            "email": "{firstname}.{lastname}@aoe.com"
+        }
+    ],
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
